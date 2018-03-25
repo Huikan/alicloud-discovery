@@ -1,0 +1,7 @@
+---
+- hosts: lucast
+
+  tasks:
+  - name: install lucast.io
+    pip:
+      name: locustio
